@@ -33,9 +33,9 @@ export default function Footer() {
 			  	<div className="text-sm">
 				 	<h3 className="font-semibold text-gray-950 text-lg mb-2">Redes sociales</h3>
 				 	<ul className="flex flex-col space-y-1 text-gray-800">
-						<li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:underline">Facebook</a></li>
-						<li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:underline">Instagram</a></li>
-						<li><a href="https://wa.me/5491123456789" target="_blank" rel="noopener noreferrer" className="hover:underline">WhatsApp</a></li>
+						<li><a href="https://discord.com/users/465203938900049920" target="_blank" rel="noopener noreferrer" className="hover:underline">Discord</a></li>
+						<li><a href="https://www.linkedin.com/in/joelmiguelvalente/" target="_blank" rel="noopener noreferrer" className="hover:underline">Linkedin</a></li>
+						<li><a href="https://github.com/joelmiguelvalente" target="_blank" rel="noopener noreferrer" className="hover:underline">Github</a></li>
 				 	</ul>
 			  	</div>
 			</div>

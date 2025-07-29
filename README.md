@@ -1,4 +1,10 @@
 # Barbería - Landing Page en React + Vite
+![Netlify](https://img.shields.io/netlify/a91131b3-9575-46f6-a031-ad367151d31c?link=https%3A%2F%2Fbarberia20-react.netlify.app%2F)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/proyectos-random-x/barberia-2.0)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joelmiguelvalente/)
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/465203938900049920)
+[![GitHub](https://img.shields.io/badge/GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joelmiguelvalente)
 
 ![Vista previa del proyecto](screenshot.png)
 
