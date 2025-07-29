@@ -1,6 +1,6 @@
 # Barbería - Landing Page en React + Vite
 
-![Vista previa del proyecto](screenshoot.png)
+![Vista previa del proyecto](screenshot.png)
 
 Este proyecto es una reimplementación de la landing page original de la barbería, creada con HTML/CSS/JS plano:  
 🔗 [Versión original](https://proyectos-random-x.github.io/barberia/)
