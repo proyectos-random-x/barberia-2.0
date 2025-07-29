@@ -1,4 +1,5 @@
 import SectionTitle from '$/SectionTitle'
+import diferenciales from '~/images/diferenciales.webp'
 
 export default function Diferentials() {
 	return (
@@ -13,7 +14,7 @@ export default function Diferentials() {
 					<p class="text-lg">★ Puntualidad</p>
 					<p class="text-lg">★ Limpieza</p>
 				</div>
-				<img src="src/assets/images/diferenciales.webp" loading="lazy" class="rounded shadow w-10/12" alt="Atención personalizada" title="diferenciales" />
+				<img src={diferenciales} loading="lazy" class="rounded shadow w-10/12" alt="Atención personalizada" title="diferenciales" />
 			</div>
 		</section>
   )

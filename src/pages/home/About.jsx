@@ -1,4 +1,5 @@
 import SectionTitle from '$/SectionTitle'
+import utensilios from '~/images/utensilios.webp'
 
 export default function About() {
 	return (
@@ -7,7 +8,7 @@ export default function About() {
 			<article className="relative grid grid-flow-col-dense space-x-6">
 				<div className="w-60 h-60 rounded shadow overflow-hidden">
 			      <figure className="w-full h-full">
-			        	<img loading="lazy" className="w-full h-full" src="src/assets/images/utensilios.webp" alt="Utensilios usados en la Barbería Alura" title="Utensilios de la Barbería Alura"
+			        	<img loading="lazy" className="w-full h-full" src={utensilios} alt="Utensilios usados en la Barbería Alura" title="Utensilios de la Barbería Alura"
 			        />
 			        <figcaption className="sr-only">Imagen ilustrativa de los utensilios de la barbería</figcaption>
 			      </figure>

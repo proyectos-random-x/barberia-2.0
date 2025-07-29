@@ -1,39 +1,46 @@
+import cabello from '~/images/cabello.webp'
+import barba from '~/images/barba.webp'
+import cabellobarba from '~/images/cabello+barba.webp'
+import mentinte from '~/images/men-tinte.webp'
+import cejas from '~/images/cejas.webp'
+import menskinker from '~/images/men-skinker.webp'
+
 export default function Servicios() {
 	const listaOriginal = [
 		{
 			titulo: "Cabello",
-			imagen: "src/assets/images/cabello.webp",
+			imagen: cabello,
 			alt: "Corte de cabello con tijera o máquina",
 			descripcion: "Con tijeras o máquina, a gusto del cliente.",
 			precio: "$10.00"
 		}, {
 			titulo: "Barba",
-			imagen: "src/assets/images/barba.webp",
+			imagen: barba,
 			alt: "Diseño profesional de barba",
 			descripcion: "Corte y diseño profesional de barba.",
 			precio: "$8.00"
 		}, {
 			titulo: "Cabello + Barba",
-			imagen: "src/assets/images/cabello+barba.webp",
+			imagen: cabellobarba,
 			alt: "Servicio completo de cabello y barba",
 			descripcion: "Paquete completo cabello y barba.",
 			precio: "$15.00"
 		}, {
 			titulo: "Tinte",
-			imagen: "src/assets/images/men-tinte.webp",
+			imagen: mentinte,
 			alt: "Tinte para cabello",
 			descripcion: "Tinte de cabello profesional con productos de calidad.",
 			precio: "$12.00",
 			destacado: true
 		}, {
 			titulo: "Diseño de Cejas",
-			imagen: "src/assets/images/cejas.webp",
+			imagen: cejas,
 			alt: "Perfilado y diseño de cejas",
 			descripcion: "Cejas definidas y bien cuidadas.",
 			precio: "$6.00"
 		}, {
 			titulo: "Limpieza Facial",
-			imagen: "src/assets/images/men-skinker.webp",
+			imagen: menskinker,
 			alt: "Tratamiento de limpieza facial",
 			descripcion: "Remueve impurezas, hidrata y renueva tu piel.",
 			precio: "$20.00",

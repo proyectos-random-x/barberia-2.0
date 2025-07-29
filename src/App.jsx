@@ -6,11 +6,13 @@ import Footer from '$/Footer'
 import Home from '&/Home'
 import Servicios from '&/Servicios'
 import Contacto from '&/Contacto'
+//
+import banner from '~/images/banner.webp'
 
 function App() {
   	return (
     	<Router>
-	    	<header className="bg-[url('src/assets/images/banner.webp')] bg-center bg-no-repeat bg-cover pt-4">
+	    	<header className="bg-center bg-no-repeat bg-cover pt-4" style={{ backgroundImage: `url(${banner})` }}>
 	    		<Navbar />
 	    		<div className="text-center pt-8 pb-28">
 	    			<h1 className="text-white text-4xl uppercase font-bold">Barbería - Alura</h1>

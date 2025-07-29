@@ -1,20 +1,24 @@
+import cabello from '~/images/cabello.webp'
+import barba from '~/images/barba.webp'
+import cabellobarba from '~/images/cabello+barba.webp'
+
 export default function Services() {
   	const servicios = [
 	 	{
 			titulo: "Cabello",
-			imagen: "src/assets/images/cabello.webp",
+			imagen: cabello,
 			alt: "Corte de cabello con tijera o máquina",
 			descripcion: "Con tijeras o máquina, a gusto del cliente.",
 			precio: "$10.00"
 	 	}, {
 			titulo: "Barba",
-			imagen: "src/assets/images/barba.webp",
+			imagen: barba,
 			alt: "Diseño profesional de barba",
 			descripcion: "Corte y diseño profesional de barba.",
 			precio: "$8.00"
 	 	}, {
 			titulo: "Cabello + Barba",
-			imagen: "src/assets/images/cabello+barba.webp",
+			imagen: cabellobarba,
 			alt: "Servicio completo de cabello y barba",
 			descripcion: "Paquete completo cabello y barba.",
 			precio: "$15.00"
