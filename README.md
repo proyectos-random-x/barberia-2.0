@@ -14,7 +14,9 @@ Este proyecto es una reimplementación de la landing page original de la barber�
 La nueva versión está construida con tecnologías modernas para una mejor experiencia de desarrollo y accesibilidad:
 
 - ⚛️ **React** con **Vite**
+- 路由 **React Router** para el enrutamiento del lado del cliente
 - 💨 **Tailwind CSS** para el diseño responsivo
+- ✍️ **TypeScript** para un tipado estático y un código más robusto
 - 🌐 Accesibilidad mejorada (uso adecuado de etiquetas y roles)
 - ✉️ Formulario funcional con integración a [Formspree](https://formspree.io)
 - 🧠 Código organizado con alias personalizados
@@ -22,15 +24,39 @@ La nueva versión está construida con tecnologías modernas para una mejor expe
 
 ---
 
-## 🧩 Estructura del Proyecto
+## 🚀 Instalación
 
 ```bash
+pnpm install
+pnpm run dev
+```
+
+---
+
+## 📦 Tecnologías Utilizadas
+
+- `react`
+- `react-dom`
+- `react-router`
+- `react-lite-youtube-embed`
+- `tailwindcss`
+- `@tailwindcss/vite`
+- `vite`
+- `typescript`
+- `eslint`
+
+---
+
+## 🧩 Estructura del Proyecto
+```bash
 src/
-├── assets/                # 
-├── components/            # Componentes reutilizables (Input, Textarea, etc.)
-├── pages/                 # Páginas individuales (Inicio, Servicios, Contacto)
-├── App.jsx                # Componente raíz
-└── main.jsx               # Punto de entrada
+├── assets/                 # Imágenes, fuentes, íconos y otros recursos estáticos
+├── components/             # Componentes UI reutilizables (ServicioCard, Button, Input, etc.)
+├── hooks/                  # Hooks personalizados (useDestacados, etc.)
+├── lib/                    # Lógica compartida / datos / tipos (no UI)
+├── pages/                  # Páginas principales (Servicios, Inicio, Contacto, etc.)
+├── App.jsx                 # Componente raíz (layout general, proveedores)
+└── main.jsx                # Punto de entrada de Vite (montaje en DOM)
 ```
 
 ---
@@ -38,14 +64,12 @@ src/
 ## 🛠️ Características Implementadas
 
 ### ✂️ Landing Page
-
 - Hero principal con presentación del negocio
 - Sección de **Servicios** (Cabello, Barba, Tinte, Cejas, Limpieza facial, etc.)
 - Sección de **¿Por qué elegirnos?** (Rapidez, Calidez, Atención personalizada, etc.)
 - Footer accesible con información de contacto
 
 ### 🧾 Servicios
-
 Página con detalle de todos los servicios disponibles, cada uno con:
 
 - Imagen ilustrativa
@@ -61,6 +85,11 @@ Página con detalle de todos los servicios disponibles, cada uno con:
   - Horario de preferencia (select)
   - Mensaje (textarea reutilizable)
 - Integración con **Formspree** para envío de datos
+
+### ✨ Otros
+- Se corrigieron errores de importación y exportación en componentes.
+- Se actualizaron datos de imágenes para un desarrollo más fluido.
+- Se restauró la sección de video en la página de inicio.
 
 ---
 
@@ -78,34 +107,9 @@ Configurados en `vite.config.js` con `path.resolve`.
 ---
 
 ## 🖼️ Imágenes utilizadas
-
 - 🎨 [dgim-studio](https://www.freepik.es/vector-gratis/plantilla-colorida-maquinilla-afeitar-recta-vintage_8136766.htm) en Freepik
 - 🧴 [pikisuperstar](https://www.freepik.es/vector-gratis/pasos-rutina-cuidado-piel-hombres_9469448.htm) en Freepik
 - 💇‍♂️ [freepik](https://www.freepik.es/vector-gratis/estilo-pelo-hombre_816107.htm)
 
----
-
-## 🚀 Instalación
-
-```bash
-npm install
-npm run dev
-```
-
----
-
-## 📦 Dependencias
-
-- `react`
-- `react-dom`
-- `react-router-dom`
-- `react-lite-youtube-embed`
-- `tailwindcss`
-- `@tailwindcss/vite`
-- `vite`
-
----
-
 ## 💈 Créditos
-
 Creado por [@Miguel92](https://github.com/proyectos-random-x) — versión modernizada de su propio diseño clásico.
