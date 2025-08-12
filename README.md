@@ -1,4 +1,4 @@
-# Barbería - Landing Page en React + Vite
+# Barbería - Landing Page en React + Vite (editado con Gemini)
 ![Netlify](https://img.shields.io/netlify/a91131b3-9575-46f6-a031-ad367151d31c?link=https%3A%2F%2Fbarberia20-react.netlify.app%2F)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/proyectos-random-x/barberia-2.0)
 

@@ -4,7 +4,7 @@ import { navLinkClass } from '../lib/nav'
 export default function Navbar() {
 	
 	return (
-		<nav className="container xl:w-5xl lg:w-4xl md:w-5xl xs:w-full mx-auto bg-neutral-50/50 backdrop-blur flex justify-between items-center p-4 px-6 sticky rounded mb-4">
+		<nav className="container xl:w-5xl lg:w-4xl md:w-5xl xs:w-full mx-auto bg-neutral-50/50 backdrop-blur flex justify-between items-center p-4 px-6 sticky rounded">
 			<div className="logo font-bold text-2xl">
 			  	<NavLink to="/">Barbería</NavLink>
 			</div>
